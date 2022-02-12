@@ -20,7 +20,37 @@ body {
 
 /* Navigation Bar */
 
+.navbar {
+  padding: 0px 0px 4.5rem;
+}
+
 .navbar-brand {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 3em;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+/* Title */
+
+h1 {
+  font-size: 3.4em;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
 }

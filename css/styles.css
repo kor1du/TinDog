@@ -84,6 +84,9 @@ h1 {
   color: #ef8172;
 }
 
+#features .row i:hover {
+  color: #ff4c68;
+}
 #features .row .col-lg-4 {
   display: flex;
   flex-direction: column;

@@ -1,5 +1,5 @@
 :root {
-  --title-background-color: #9575cd;
+  --title-background-color: #ff4d69;
   --default-font-family: 'Rowdies', cursive;
   --white-color: white;
   --black-color: black;
@@ -16,6 +16,12 @@ body {
 #title {
   background-color: var(--title-background-color);
   color: var(--white-color);
+}
+
+@media screen and (max-width: 992px) {
+  #title .row {
+    justify-content: center;
+  }
 }
 
 /* Navigation Bar */
@@ -40,17 +46,51 @@ body {
 
 /* Title */
 
+.catch-praise-and-btns {
+  text-align: center;
+}
+
 h1 {
-  font-size: 3.4em;
+  font-size: 3em;
 }
 
 .download-button {
+  font-size: 1em;
   margin: 5% 3% 5% 0;
 }
 
 /* Title Image */
 
 .title-image {
-  width: 60%;
+  max-width: 350px;
+  min-height: 350px;
+  max-height: 350px;
+  position: relative;
+  overflow: hidden;
+}
+
+.title-image img {
   transform: rotate(25deg);
+  position: absolute;
+  width: 200px;
+  top: 19px;
+}
+
+/* Features */
+
+#features .row i {
+  font-size: 5em;
+  margin-bottom: 15px;
+  color: #ef8172;
+}
+
+#features .row .col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 150px 0px 150px 0;
+}
+
+#features .row p {
+  text-align: center;
 }

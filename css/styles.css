@@ -110,44 +110,35 @@ h1 {
 /* Testmonial Section */
 
 #testimonials {
-  padding: 50px 150px;
-  background-color: black;
+  padding: 10px 150px;
+  background-color: #7e57c2;
   color: white;
   text-align: center;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  border: 0;
 }
 
 .testmonials-interview {
-  font-size: 3em;
+  font-size: 2em;
   line-height: 1.5em;
   margin-bottom: 30px;
 }
 
-@media screen and (max-width: 992px) {
-  #testimonials {
-    padding: 10px 10px;
-    background-color: black;
-    color: white;
-    text-align: center;
-  }
-
-  .testmonials-interview {
-    font-size: 1.5em;
-  }
-
-  .carousel-item {
-    display: none;
-  }
-
-  .carousel-item.active {
-    height: 70vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
 .testmonials-img {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #7e57c2;
+  text-align: center;
+}
+
+#press img {
+  width: 250px;
+  padding: 20px;
 }

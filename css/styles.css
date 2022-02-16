@@ -111,19 +111,20 @@ h1 {
 
 #testimonials {
   padding: 10px 150px;
-  background-color: #7e57c2;
-  color: white;
+  background-color: #ffa726;
+  color: black;
   text-align: center;
-  min-height: 400px;
+}
+
+.carousel-inner {
   display: flex;
   align-items: center;
-  border: 0;
+  min-height: 400px;
 }
 
 .testmonials-interview {
   font-size: 2em;
   line-height: 1.5em;
-  margin-bottom: 30px;
 }
 
 .testmonials-img {
@@ -134,7 +135,7 @@ h1 {
 }
 
 #press {
-  background-color: #7e57c2;
+  background-color: #ffa726;
   text-align: center;
 }
 

@@ -191,6 +191,10 @@ h1 {
   min-height: 330px;
 }
 
+.card-body h3 {
+  color: #304ffe;
+}
+
 .card-text {
   display: flex;
   flex-direction: column;
@@ -204,4 +208,10 @@ h1 {
 
 .card-title-Mastiff {
   color: #d50000;
+}
+
+@media screen and (max-width: 992px) {
+  .card-text {
+    height: 250px;
+  }
 }

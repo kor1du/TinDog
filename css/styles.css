@@ -36,7 +36,7 @@ body {
 }
 
 .navbar-brand:hover {
-  color: #039be5 !important;
+  color: #ff80ab !important;
 }
 
 .nav-item {
@@ -50,7 +50,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #ee98fb !important;
+  color: #ff80ab !important;
 }
 
 /* Title */
@@ -160,4 +160,48 @@ h1 {
   #press img {
     width: 150px;
   }
+}
+
+/* pricing */
+#pricing .row {
+  margin: 0;
+}
+
+.pricing-title {
+  padding: 5% 0;
+  text-align: center;
+}
+
+.pricing-title h2 {
+  font-size: 4em;
+}
+
+.pricing-title p {
+  margin: 20px 0;
+  font-size: 2em;
+  color: #2196f3;
+}
+
+.pricing-item {
+  padding: 0px 50px;
+  text-align: center;
+}
+
+.card-body {
+  min-height: 330px;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 160px;
+}
+
+.card-title-Labrador {
+  color: #03a9f4;
+}
+
+.card-title-Mastiff {
+  color: #d50000;
 }

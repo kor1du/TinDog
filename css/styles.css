@@ -1,6 +1,6 @@
 :root {
   --title-background-color: black;
-  --default-font-family: 'Rowdies', cursive;
+  --default-font-family: 'Josefin Sans', sans-serif;
   --white-color: white;
   --black-color: black;
 }
@@ -63,6 +63,8 @@ body {
 }
 
 h1 {
+  font-weight: 700;
+  font-style: italic;
   font-size: 3em;
 }
 
@@ -110,19 +112,21 @@ h1 {
 /* Testmonial Section */
 
 #testimonials {
-  padding: 10px 150px;
   background-color: #ffa726;
   color: black;
   text-align: center;
 }
 
 .carousel-inner {
+  padding: 0 20%;
   display: flex;
   align-items: center;
   min-height: 400px;
 }
 
 .testmonials-interview {
+  font-family: 'Anton', sans-serif;
+  font-weight: 700;
   font-size: 2em;
   line-height: 1.5em;
 }
@@ -140,6 +144,20 @@ h1 {
 }
 
 #press img {
-  width: 250px;
+  width: 200px;
   padding: 20px;
+}
+
+@media screen and (max-width: 992px) {
+  .carousel-inner {
+    min-height: 350px;
+  }
+
+  .testmonials-interview {
+    font-size: 1.5em;
+  }
+
+  #press img {
+    width: 150px;
+  }
 }

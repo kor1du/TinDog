@@ -9,13 +9,17 @@ body {
   font-family: var(--default-font-family);
 }
 
-.container-fluid {
+#title .container-fluid {
   padding: 3% 15%;
 }
 
 #title {
   background-color: var(--title-background-color);
   color: var(--white-color);
+}
+
+.title-row {
+  align-items: center;
 }
 
 @media screen and (max-width: 992px) {
@@ -65,7 +69,7 @@ body {
 h1 {
   font-weight: 700;
   font-style: italic;
-  font-size: 3em;
+  font-size: 2.9em;
 }
 
 .download-button {
@@ -75,22 +79,33 @@ h1 {
 
 /* Title Image */
 
-.title-image {
+/* .title-image {
   max-width: 350px;
-  min-height: 350px;
-  max-height: 350px;
-  position: relative;
+  min-height: 600px;
+  max-height: 600px;
   overflow: hidden;
+} */
+
+.title-img {
+  text-align: center;
 }
 
-.title-image img {
+.title-img img {
   transform: rotate(25deg);
-  position: absolute;
-  width: 200px;
-  top: 19px;
+  width: 250px;
 }
 
+@media screen and (max-width: 991px) {
+  .title-img {
+    margin-top: 100px;
+  }
+}
 /* Features */
+
+#features {
+  background-color: white;
+  position: relative;
+}
 
 .features-box i {
   font-size: 5em;
@@ -211,7 +226,16 @@ h1 {
 }
 
 @media screen and (max-width: 992px) {
+  .card {
+    margin-bottom: 30px;
+  }
+
   .card-text {
     height: 250px;
   }
+}
+
+.card-body Button {
+  width: 60%;
+  height: 50px;
 }

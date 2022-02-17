@@ -1,5 +1,5 @@
 :root {
-  --title-background-color: black;
+  --title-background-color: #ff6e40;
   --default-font-family: 'Josefin Sans', sans-serif;
   --white-color: white;
   --black-color: black;
@@ -7,6 +7,11 @@
 
 body {
   font-family: var(--default-font-family);
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 #title .container-fluid {
@@ -40,7 +45,7 @@ body {
 }
 
 .navbar-brand:hover {
-  color: #ff80ab !important;
+  color: black !important;
 }
 
 .nav-item {
@@ -54,7 +59,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #ff80ab !important;
+  color: black !important;
 }
 
 /* Title */
@@ -238,4 +243,39 @@ h1 {
 .card-body Button {
   width: 60%;
   height: 50px;
+}
+
+/* cta */
+
+#cta .container-fluid {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 400px;
+  background-color: #ff4c68;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+#cta h3 {
+  font-size: 5em;
+  margin: 50px 0px;
+}
+
+/* footer */
+
+#footer {
+  text-align: center;
+}
+
+#footer i {
+  margin: 20px 10px;
+  font-size: 3em;
+}
+
+#footer p {
+  margin: 20px 0;
+  font-size: 2em;
 }

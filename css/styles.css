@@ -207,10 +207,23 @@ h1 {
   text-align: center;
 }
 
+.card-title {
+  background-color: #9575cd;
+}
+
 .card-body {
   min-height: 330px;
 }
 
+.card-title h2,
+.card-title h3 {
+  margin-bottom: 0;
+}
+
+.card-price {
+  margin-top: 10px;
+  color: #ffa000;
+}
 .card-body h3 {
   color: #304ffe;
 }
@@ -221,15 +234,6 @@ h1 {
   justify-content: center;
   height: 160px;
 }
-
-.card-title-Labrador {
-  color: #03a9f4;
-}
-
-.card-title-Mastiff {
-  color: #d50000;
-}
-
 @media screen and (max-width: 992px) {
   .card {
     margin-bottom: 30px;
